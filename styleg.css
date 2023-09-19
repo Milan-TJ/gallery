@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #000;
+  color: #fff;
+}
+h1 {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  margin: 40px;
+  font-family: 'Poppins', sans-serif;
+}
+.container {
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  position: relative;
+  margin-bottom: 40px;
+}
+.row1,
+.row2,
+.row3 {
+  width: 900px;
+  height: 200px;
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+  position: relative;
+}
+.img1 {
+  width: 400px;
+  height: 200px;
+  background-image: url(gallery/1.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0%;
+  left: 0;
+}
+.img2 {
+  width: 400px;
+  height: 200px;
+  background-image: url(gallery/2.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0%;
+  right: 0;
+}
+.img3 {
+  width: 400px;
+  height: 200px;
+  background-image: url(gallery/3.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0%;
+  left: 0;
+}
+.img4 {
+  width: 400px;
+  height: 200px;
+  background-image: url(gallery/4.png);
+  background-size: cover;
+  position: absolute;
+  top: 0%;
+  right: 0;
+}
+.img5 {
+  width: 400px;
+  height: 200px;
+  background-image: url(gallery/5.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0%;
+  left: 0;
+}
+.img6 {
+  width: 400px;
+  height: 200px;
+  background-image: url(gallery/6.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0%;
+  right: 0;
+}
+/* .img1,.img2,.img3,.img4,.img5,.img6{
+
+} */
+.txt1,
+.txt2,
+.txt3,
+.txt4,
+.txt5,
+.txt6 {
+  height: inherit;
+  width: inherit;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: 'Ubuntu', sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  visibility: hidden;
+}
+h3 {
+  position: absolute;
+  bottom: 43px;
+  font-size: 20px;
+  left: 20px;
+}
+p {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+.img1:hover .txt1 {
+  visibility: visible;
+}
+.img2:hover .txt2 {
+  visibility: visible;
+}
+.img3:hover .txt3 {
+  visibility: visible;
+}
+.img4:hover .txt4 {
+  visibility: visible;
+}
+.img5:hover .txt5 {
+  visibility: visible;
+}
+.img6:hover .txt6 {
+  visibility: visible;
+}
